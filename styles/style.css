@@ -1,0 +1,2 @@
+nav{border:1px solid black;height:1.5rem;width:50%;margin:0 auto 0 auto;background-color:#afafaf}ul{height:100%;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:0;margin:0}ul li{list-style-type:none;margin:auto 1rem auto 1rem}.navLinks{cursor:pointer;color:blue;font-weight:bold;-webkit-transition:0.25s;transition:0.25s}.navLinks:hover{border-bottom:2px solid black}
+/*# sourceMappingURL=style.css.map */
