@@ -6,6 +6,10 @@ nav {
     background-color: rgb(175, 175, 175);
 }
 
+h1 {
+    text-align: center;
+}
+
 ul {
     height: 100%;
     width: 100%;
@@ -29,4 +33,26 @@ ul {
     &:hover {
         border-bottom: 2px solid black;
     }
+    a {
+        text-decoration: none;
+    }
+}
+
+#mainDiv {
+    width: 50%;
+    height: 50vh;
+    background-color: grey;
+    border: 1px solid black;
+    margin: 1rem auto 0 auto;
+    
+    form {
+        text-align: center;
+    }
+}
+
+#whaleCum {
+    margin: 5rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
 }
