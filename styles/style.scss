@@ -1,3 +1,9 @@
+body {
+    background-image: url(../media/wallhaven-6qle5q.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 nav {
     border: 1px solid black;
     height: 1.5rem;
@@ -8,6 +14,7 @@ nav {
 
 h1 {
     text-align: center;
+    color: red;
 }
 
 ul {
@@ -55,4 +62,15 @@ ul {
     color: white;
     text-align: center;
     font-weight: bold;
+}
+
+#siteFooter {
+    width: 50%;
+    background-color: orange;
+    border: 1px solid black;
+    margin: 0 auto 0 auto;
+    position: fixed;
+    left: 25%;
+    bottom: 1rem;
+    text-align: center;
 }
