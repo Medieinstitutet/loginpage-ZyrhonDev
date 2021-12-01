@@ -19,9 +19,10 @@ let siteFooter = document.createElement ("footer");
 let footerText = document.createElement ("p");
 let navUl = document.createElement ("ul");
 const myH = document.createElement ("h1");
+const myHeader = document.createElement ("header");
 myH.innerText = "Zyrhon (Aka Oskar Lundberg)'s Login website."
-document.body.append (myDiv);
-myDiv.insertAdjacentElement ("beforebegin", myH);
+document.body.append (myHeader, myDiv);
+myHeader.append (myH);
 myDiv.insertAdjacentElement ("afterbegin", navBar);
 myDiv.insertAdjacentElement ("beforeend", siteFooter);
 siteFooter.append (footerText);
